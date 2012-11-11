@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10dp"
+    android:background="#E9E9BE"
+    android:orientation="vertical" >
+
+  <EditText
+        android:id="@+id/txtItem"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+       android:hint="Enter New Task Here..."
+    />
+
+    <Button
+        android:layout_below="@+id/txtItem"
+        android:id="@+id/btnAdd"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Task"  />
+      
+  
+    
+     <ListView 
+         android:layout_below="@+id/btnAdd"
+         android:paddingTop="25dp"
+	 	android:layout_height="wrap_content"
+	 	android:layout_width="fill_parent" 
+	 	android:id="@android:id/list"
+	 	 android:gravity="center_horizontal" >
+   
+         
+     </ListView>
+
+</RelativeLayout>
+ 
